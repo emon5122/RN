@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RN",
-    "slug": "RN",
+    "slug": "rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fbb85528-1d3b-4797-b41f-6366557780ab"
+      }
+    },
+    "owner": "emon5122"
   }
 }
