@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ScrollView, Text, View, Pressable } from "react-native";
+import { ScrollView, Text, View, Pressable, Platform } from "react-native";
 import z from "zod";
 import axios from "axios";
 
@@ -42,7 +42,7 @@ export default function App() {
             })
             .catch((error) => console.log(error));
     }, []);
-
+    console.log(Platform.OS);
     return (
         <View className="flex-1 items-center justify-center bg-slate-900">
             <ScrollView
